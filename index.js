@@ -126,14 +126,14 @@ async function startGojoMdNx() {
                 try {
                     ppuser = await GojoMdNx.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppuser = 'https://i.imgur.com/O28SaPp.jpeg'
                 }
 
                 //Get Profile Picture Group\\
                 try {
                     ppgroup = await GojoMdNx.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+                    ppgroup = 'https://i.imgur.com/O28SaPp.jpeg'
                 }
 
 //welcome\\
